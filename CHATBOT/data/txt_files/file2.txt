@@ -1,0 +1,162 @@
+SOFTWARE ENGINEERING OVERVIEW
+Software engineering focuses on designing, developing, testing, deploying, and maintaining software systems in a structured and reliable manner.
+
+CORE SOFTWARE ENGINEERING PRINCIPLES
+- Modularity
+- Reusability
+- Scalability
+- Maintainability
+- Reliability
+- Performance optimization
+
+SOFTWARE DEVELOPMENT LIFE CYCLE (SDLC)
+1. Requirement analysis
+2. System design
+3. Implementation
+4. Testing
+5. Deployment
+6. Maintenance
+
+BACKEND DEVELOPMENT
+Backend development handles server-side logic, APIs, databases, and authentication.
+
+POPULAR BACKEND TECHNOLOGIES
+- Node.js
+- Python (Django, Flask, FastAPI)
+- Java (Spring Boot)
+- Go
+
+APPLICATION PROGRAMMING INTERFACES (APIs)
+APIs allow communication between different systems.
+
+COMMON HTTP METHODS
+- GET: Retrieve data
+- POST: Create data
+- PUT: Update data
+- DELETE: Remove data
+
+REST API PRINCIPLES
+- Stateless communication
+- Resource-based URLs
+- Client-server architecture
+
+DATABASE SYSTEMS
+Databases store and manage structured or unstructured data.
+
+TYPES OF DATABASES
+Relational Databases (SQL):
+- MySQL
+- PostgreSQL
+- SQLite
+
+NoSQL Databases:
+- MongoDB
+- Redis
+- Cassandra
+
+SQL VS NOSQL
+SQL: databases use fixed schemas and strong consistency.
+NoSQL: databases support flexible schemas and horizontal scalability.
+
+DATA ENGINEERING
+Data engineering focuses on collecting, transforming, validating, and storing data.
+
+DATA PIPELINE STAGES
+1. Data ingestion
+2. Data cleaning
+3. Data transformation
+4. Data storage
+5. Analytics or ML usage
+
+ETL AND ELT
+ETL stands for Extract, Transform, Load.
+ELT loads raw data before transformation.
+
+BIG DATA CONCEPTS
+Big data is defined by:
+- Volume
+- Velocity
+- Variety
+- Veracity
+- Value
+
+BIG DATA TOOLS
+- Hadoop
+- Spark
+- Kafka
+
+DATA CLEANING TASKS
+- Removing duplicates
+- Handling missing values
+- Normalizing formats
+- Fixing inconsistencies
+
+DATA STORAGE FORMATS
+- CSV
+- JSON
+- Parquet
+- Avro
+- TXT
+
+INDEXING
+Indexes improve search and lookup performance.
+
+TYPES OF INDEXES
+- B-tree index
+- Hash index
+- Inverted index
+- Vector index
+
+INFORMATION RETRIEVAL (IR)
+Information retrieval focuses on finding relevant documents based on a query.
+
+IR COMPONENTS
+- Query processing
+- Ranking
+- Similarity scoring
+- Relevance estimation
+
+SEMANTIC SEARCH
+Semantic search understands meaning instead of exact keywords.
+It relies on embeddings to find similar content.
+
+EVALUATION METRICS
+- Precision
+- Recall
+- F1-score
+- Mean Reciprocal Rank (MRR)
+- nDCG
+
+SECURITY AND PRIVACY
+Security ensures protection of data and systems.
+
+SECURITY PRACTICES
+- Encryption
+- Authentication
+- Authorization
+- Access control
+- Secure storage
+
+LOGGING AND MONITORING
+Used to track application behavior and detect issues.
+
+DEPLOYMENT PIPELINES
+Common environments:
+- Development
+- Staging
+- Production
+
+DEPLOYMENT TOOLS
+- Docker
+- CI/CD pipelines
+
+REAL-WORLD APPLICATIONS
+- Search engines
+- Chatbots
+- Recommendation systems
+- Enterprise knowledge bases
+- Document question-answering systems
+- AI assistants
+
+SUMMARY
+Modern intelligent systems combine software engineering, data management, retrieval techniques, and language models to deliver accurate, scalable, and reliable applications.

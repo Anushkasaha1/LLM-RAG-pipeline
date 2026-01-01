@@ -1,0 +1,121 @@
+AI OVERVIEW
+Artificial Intelligence (AI) refers to systems designed to perform tasks that normally require human intelligence such as reasoning, learning, perception, decision-making, and language understanding.
+
+TYPES OF ARTIFICIAL INTELLIGENCE
+1. Narrow AI: Designed for a specific task such as chatbots or recommendation systems.
+2. General AI: Capable of performing any intellectual task a human can do (theoretical).
+3. Super AI: Intelligence surpassing human capabilities (hypothetical).
+
+MACHINE LEARNING
+Machine Learning (ML) is a subset of AI where models learn patterns from data instead of being explicitly programmed.
+
+TYPES OF MACHINE LEARNING
+1. Supervised Learning – Uses labeled data for training (classification, regression).
+2. Unsupervised Learning – Discovers patterns in unlabeled data (clustering, dimensionality reduction).
+3. Reinforcement Learning – Learns actions through reward and punishment.
+
+DEEP LEARNING
+Deep Learning uses multi-layer neural networks to learn hierarchical representations.
+
+COMMON DEEP LEARNING MODELS
+- Artificial Neural Networks (ANN)
+- Convolutional Neural Networks (CNN)
+- Recurrent Neural Networks (RNN)
+- Long Short-Term Memory (LSTM)
+- Gated Recurrent Units (GRU)
+- Transformers
+
+TRANSFORMER ARCHITECTURE
+Transformers use attention mechanisms to process input tokens in parallel.
+They are the foundation of modern language models.
+
+LARGE LANGUAGE MODELS (LLMs)
+LLMs are trained on massive text corpora to predict the next token.
+They can generate text, answer questions, summarize documents, and write code.
+
+EXAMPLES OF LLMS
+- GPT
+- Claude
+- Gemini
+- LLaMA
+- Mistral
+
+EMBEDDINGS
+Embeddings are numerical vector representations of text or data.
+Similar meanings produce similar vectors.
+
+USES OF EMBEDDINGS
+- Semantic search
+- Document similarity
+- Clustering
+- Recommendation systems
+- Retrieval-Augmented Generation
+
+VECTOR DATABASES
+Vector databases store embeddings and support similarity search.
+
+POPULAR VECTOR DATABASES
+- FAISS
+- Chroma
+- Pinecone
+- Weaviate
+- Milvus
+
+SIMILARITY METRICS
+- Cosine similarity
+- Euclidean distance
+- Dot product
+
+RETRIEVAL-AUGMENTED GENERATION (RAG)
+RAG combines retrieval with text generation to reduce hallucinations.
+
+RAG WORKFLOW
+1. Collect documents
+2. Split text into chunks
+3. Generate embeddings
+4. Store embeddings in a vector database
+5. Embed user query
+6. Retrieve relevant chunks
+7. Pass retrieved context to LLM
+8. Generate grounded answer
+
+CHUNKING STRATEGY
+Chunking divides long text into smaller parts.
+Chunk overlap helps preserve context.
+
+METADATA IN RAG
+Metadata helps track document source and context.
+Examples include filename, chunk index, topic, and author.
+
+LIMITATIONS OF RAG
+- Dependent on data quality
+- Sensitive to chunk size
+- Retrieval errors affect output
+- Context window limits
+- Multi-hop reasoning challenges
+
+ADVANCED RAG APPROACHES
+- Agentic RAG
+- Graph-based RAG
+- Hybrid keyword + vector search
+- Memory-augmented systems
+- Tool-using agents
+
+EVALUATION OF RAG SYSTEMS
+- Precision
+- Recall
+- Faithfulness
+- Answer relevance
+- Latency
+- Human evaluation
+
+APPLICATIONS OF RAG
+- Enterprise knowledge base
+- Chat with documents
+- Legal and medical QA
+- Educational tutors
+- Research assistants
+- Customer support automation
+
+FUTURE OF AI SYSTEMS
+AI systems are moving toward multi-agent reasoning, tool usage, and deeper integration with external knowledge sources.
